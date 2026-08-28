@@ -1,5 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteca.Domain\Biblioteca.Domain.csproj" />
+    <ProjectReference Include="Biblioteca.Application.csproj" />
+    <ProjectReference Include="..\Biblioteca.Infraestructure\Biblioteca.Infraestructure.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
