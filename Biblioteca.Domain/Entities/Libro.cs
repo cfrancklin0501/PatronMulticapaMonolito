@@ -11,7 +11,7 @@ namespace Biblioteca.Domain.Entities
 
         public int AnioPublicacion { get; set; }
 
-        public int AuthorId { get; set; }
+        public int AutorId { get; set; }
 
         public Autor? Autor { get; set; }
 
